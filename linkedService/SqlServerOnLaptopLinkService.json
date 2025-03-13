@@ -1,0 +1,28 @@
+{
+	"name": "SqlServerOnLaptopLinkService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "Apik-Laptop\\SQLEXPRESS",
+			"database": "Vendor",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "vendordb_user",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultLinkVendorProject",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeVendorProject",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

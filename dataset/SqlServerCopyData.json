@@ -1,0 +1,13 @@
+{
+	"name": "SqlServerCopyData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerOnLaptopLinkService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

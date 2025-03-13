@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerOnLaptop",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerOnLaptopLinkService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ItemCode"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

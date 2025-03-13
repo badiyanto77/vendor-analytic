@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeVendorProject",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
