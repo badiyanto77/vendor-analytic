@@ -18,8 +18,9 @@ The project is developed using Azure data engineering platform, and utilize Powe
 
 
 # The Architecture Diagram
+![Screenshot 2025-03-13 132848](https://github.com/user-attachments/assets/7d315c30-60da-4228-b4f8-90c7c0cdc503)
 
-![Screenshot 2025-03-11 114437](https://github.com/user-attachments/assets/41332464-9fc7-44d2-9507-9c131bc55f69)
+
 
 # The Data Set
 The data sources is from transactional database resides on premise SQL Server database in the organization.
