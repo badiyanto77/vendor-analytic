@@ -38,13 +38,13 @@ The pipeline design is divided into 3 phases :
 
 # Visualization
 Power BI is used as data visualization tool, due to the easy connectivity with azure platform. 
-![Screenshot 2025-03-01 094921](https://github.com/user-attachments/assets/7c18e0b2-5392-4fa1-83d0-7a9e97e9aa0d)
 
 # Batch Processing
 The batch processing is scheduled every day to obtain meaningful amount of data change 
 
 # Transformed Data Model
-![Screenshot 2025-03-01 115329](https://github.com/user-attachments/assets/816cb36f-9996-4b78-93a2-bf8e2e66f76c)
+![Screenshot 2025-03-13 124719](https://github.com/user-attachments/assets/1dcd3246-47b2-469b-84a4-2a5bcf64ede9)
+
 
 # Conclusion
 The project is straigh forward extracting and transforming data from on premise SQL server database which already in a good format since it is relational database. 
