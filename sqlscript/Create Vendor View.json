@@ -1,0 +1,17 @@
+{
+	"name": "Create Vendor View",
+	"properties": {
+		"content": {
+			"query": "CREATE OR ALTER VIEW Vendor \nAS\nSELECT\n    *\nFROM\n    OPENROWSET(\n        BULK 'https://datalakevendorproject.dfs.core.windows.net/gold/Vendor/',\n        FORMAT = 'DELTA'\n    ) AS [result]\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "VendorProject",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

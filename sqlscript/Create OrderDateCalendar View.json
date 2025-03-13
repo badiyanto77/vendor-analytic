@@ -1,0 +1,17 @@
+{
+	"name": "Create OrderDateCalendar View",
+	"properties": {
+		"content": {
+			"query": "-- This is auto-generated code\nCREATE OR ALTER VIEW OrderDateCalendar\nAS\nSELECT\n    *\nFROM\n    OPENROWSET(\n        BULK 'https://datalakevendorproject.dfs.core.windows.net/gold/OrderDateCalendar/',\n        FORMAT = 'DELTA'\n    ) AS [result]\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "VendorProject",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
